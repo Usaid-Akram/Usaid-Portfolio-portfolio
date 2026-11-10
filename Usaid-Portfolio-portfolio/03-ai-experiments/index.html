@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Experiments | Usaid</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="../01-personal-portfolio/index.html">← Back to portfolio</a><span>USAID / AI LAB</span></header>
+  <main>
+    <p class="eyebrow">LEARN · EXPERIMENT · DISCOVER</p>
+    <h1>AI <span>Experiments.</span></h1>
+    <p class="intro">A space for exploring artificial intelligence, prompt writing and creative workflows.</p>
+    <section class="panel">
+      <h2>Prompt Builder</h2>
+      <p>Choose a topic and a style to create a prompt idea you can use with an AI tool.</p>
+      <label for="topic">What do you want to create?</label>
+      <input id="topic" placeholder="Example: a study timetable">
+      <label for="style">Choose a style</label>
+      <select id="style">
+        <option>Clear and simple</option><option>Creative and detailed</option><option>Professional</option><option>Beginner-friendly</option>
+      </select>
+      <button id="build">Build my prompt</button>
+      <div class="output"><strong>Your prompt idea</strong><p id="result">Your generated prompt will appear here.</p><button class="copy" id="copy">Copy prompt</button></div>
+    </section>
+    <section class="grid">
+      <article class="card"><span>01 / PROMPTING</span><h2>Prompt Engineering</h2><p>Practising how to write clear instructions, add context and improve AI responses.</p></article>
+      <article class="card"><span>02 / PRODUCTIVITY</span><h2>AI Workflows</h2><p>Exploring ways AI tools can support research, planning and everyday tasks.</p></article>
+      <article class="card"><span>03 / CREATIVITY</span><h2>Generative AI</h2><p>Experimenting with ideas for images, stories, presentations and videos.</p></article>
+    </section>
+    <p class="disclaimer">This is a front-end learning demo. It builds a prompt locally; it does not connect to an AI service or send your text anywhere.</p>
+  </main>
+  <footer>AI learning journal · Curiosity meets technology.</footer>
+  <script src="script.js"></script>
+</body></html>

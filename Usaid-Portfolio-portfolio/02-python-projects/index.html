@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Projects | Usaid</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="../01-personal-portfolio/index.html">← Back to portfolio</a><span>USAID / PYTHON LAB</span></header>
+  <main>
+    <p class="eyebrow">CODING COLLECTION</p><h1>Python <span>Projects.</span></h1>
+    <p class="intro">A small collection of beginner Python programs. These projects demonstrate basic programming concepts and are designed to grow as I learn.</p>
+    <section class="grid">
+      <article class="card"><div class="icon">🧮</div><h2>Simple Calculator</h2><p>Uses input, numbers, operators and conditional statements to perform basic calculations.</p><pre><code>num1 = float(input("First number: "))
+num2 = float(input("Second number: "))
+print("Sum:", num1 + num2)
+print("Product:", num1 * num2)</code></pre></article>
+      <article class="card"><div class="icon">🎯</div><h2>Number Guessing Game</h2><p>Uses a random number, a loop and conditions to let a player guess the answer.</p><pre><code>import random
+secret = random.randint(1, 10)
+guess = int(input("Guess 1-10: "))
+if guess == secret:
+    print("You got it!")
+else:
+    print("The number was", secret)</code></pre></article>
+      <article class="card"><div class="icon">📝</div><h2>Mini Quiz</h2><p>Uses questions, user input and a score variable to create a short quiz.</p><pre><code>score = 0
+answer = input("What does HTML stand for? ")
+if answer.lower() == "hypertext markup language":
+    score += 1
+print("Your score:", score)</code></pre></article>
+      <article class="card"><div class="icon">🌡️</div><h2>Temperature Converter</h2><p>Uses a formula and numeric input to convert Celsius into Fahrenheit.</p><pre><code>celsius = float(input("Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Fahrenheit:", fahrenheit)</code></pre></article>
+    </section>
+    <p class="note">These are sample learning projects. Run the Python examples with Python 3 on your computer.</p>
+  </main>
+  <footer>Python practice · Learning one program at a time.</footer>
+</body></html>
